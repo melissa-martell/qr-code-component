@@ -13,6 +13,7 @@
     --slate-300: hsl(212, 45%, 89%);
     --slate-500: hsl(216, 15%, 48%);
     --slate-900: hsl(218, 44%, 22%);
+    --bg-color: #fff;
 }
 
 .content-container{
@@ -30,7 +31,7 @@
     align-items: center;
     flex-direction: column;
     flex: 1;
-    margin: 0 20px;
+    margin: 0 1.1rem;
 }
 
 .qr_container {
@@ -39,7 +40,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: var(--bg-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.42);
     gap: 20px;
     max-height: fit-content;
