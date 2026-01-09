@@ -35,7 +35,7 @@
 }
 
 .qr_container {
-    max-width: 375px;
+    max-width: 23rem;
     height: auto;
     padding: 20px;
     display: flex;
